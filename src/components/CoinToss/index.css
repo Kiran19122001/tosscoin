@@ -1,0 +1,42 @@
+.main-constainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #f9d423, #e2a139);
+}
+
+.card-container {
+    height: 600px;
+    width: 500px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.coin {
+    height: 150px;
+    width: 150px;
+}
+
+button {
+    padding: 8px;
+    color: #a35200;
+    background-color: #f9d423;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contents {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+}
